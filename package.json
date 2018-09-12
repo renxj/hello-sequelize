@@ -1,0 +1,29 @@
+{
+  "name": "hello-sequelize",
+  "version": "1.0.0",
+  "description": "koa sequelize",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=test node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renxj/hello-sequelize.git"
+  },
+  "keywords": [
+    "node",
+    "koa",
+    "sequelize"
+  ],
+  "author": "renxj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renxj/hello-sequelize/issues"
+  },
+  "homepage": "https://github.com/renxj/hello-sequelize#readme",
+  "dependencies": {
+    "sequelize": "3.24.1",
+    "mysql": "2.11.1"
+  }
+}
